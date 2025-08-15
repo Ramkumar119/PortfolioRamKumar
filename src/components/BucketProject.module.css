@@ -1,0 +1,77 @@
+.bucket_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #697565;
+  background-color: #1c1c22;
+  border-radius: 20px;
+  padding: 35px 20px;
+  overflow: hidden;
+  height: 100%;
+  flex: 1 0 50%;
+}
+
+.branding_info {
+  align-content: center;
+  justify-content: center;
+}
+.branding_info a {
+  text-decoration: none;
+}
+.branding_info h1:hover {
+  color: #ffdbb5 !important;
+}
+.branding_info h1 {
+  font-size: clamp(15px, 5vw, 25px);
+  font-family: "Tourney", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 87.5;
+}
+.downArrow {
+  color: #ffdbb5;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+@keyframes Dribble {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.branding_social {
+  display: flex;
+  margin-top: 29px;
+  gap: 14px;
+}
+
+.resumeBtn {
+  font-size: clamp(12px, 2.5vw, 15px);
+  padding: 8px 0px !important;
+  font-weight: 400;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 700px) and (max-width: 890px) {
+  .downArrow {
+    height: 1rem;
+    width: 1rem;
+  }
+  .resumeBtn {
+    padding: 8px 20px !important;
+    width: fit-content;
+  }
+}
+@media screen and (min-width: 890px) {
+  .resumeBtn {
+    padding: 8px 32px !important;
+    width: fit-content;
+  }
+}

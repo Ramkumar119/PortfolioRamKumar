@@ -1,0 +1,230 @@
+.displayBranding {
+  display: flex;
+  justify-content: center;
+  height: fit-content !important;
+}
+
+.imgMine {
+  border-radius: 24px;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.head__about {
+  font-size: 71px;
+  margin-top: 24px;
+  color: #00ff99;
+}
+
+.intro__subpara {
+  display: contents;
+  font-size: 20px;
+  padding: 0px 25px;
+  color: #ababab !important;
+  text-align: start;
+}
+
+.img_box {
+  display: flex !important;
+  margin: 26px 10px 0px 160px;
+  /* width: 67.33333% !important; */
+  /* height: 500px; */
+  flex-basis: 68%;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  letter-spacing: 2px;
+}
+.btn__container {
+  display: flex !important;
+  margin: 30px 0px 0px 0px;
+  /* padding: 0px 18px 0px 18px; */
+}
+.btn_about {
+  font-size: 15px;
+  padding: 8px 25px !important;
+  background-color: #1c1c22;
+}
+
+.personal_details {
+  display: grid;
+  grid-template-columns: auto;
+  margin-top: 20px;
+  font-size: 1.15rem;
+  padding: 0px 25px;
+}
+.detail {
+  display: flex;
+  gap: 20px;
+}
+.detail_head {
+  color: #848383 !important;
+}
+.detail_info {
+  color: #f1d2d2 !important;
+}
+/* .link {
+  color: #f1d2d2 !important;
+} */
+.link:hover {
+  background-color: #00ff99;
+  color: black !important;
+}
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+  .img_box {
+    margin: auto;
+    width: 55.33333% !important;
+  }
+  .heading {
+    padding: 50px 5px;
+  }
+  .head__about {
+    font-size: 43px;
+    margin-top: 0px;
+  }
+  .intro__subpara {
+    font-size: 15px;
+  }
+  .btn__container {
+    margin-top: 16px;
+  }
+  .btn_about {
+    padding: 8px 14px !important;
+    font-size: 0.85rem;
+  }
+  .personal_details {
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 576px) {
+  .personal_details {
+    font-size: 16px;
+  }
+  .img_box {
+    margin: auto;
+    width: 50.33333% !important;
+  }
+  .heading {
+    padding: 50px 5px !important;
+  }
+  .head__about {
+    font-size: 48px;
+    margin-top: 0px;
+  }
+  .intro__subpara {
+    font-size: 16px;
+  }
+  .btn__container {
+    margin-top: 16px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .personal_details {
+    font-size: 18px;
+  }
+  .img_box {
+    margin: auto;
+    width: 45.33333% !important;
+  }
+  .heading {
+    padding: 50px 20px !important;
+  }
+  .head__about {
+    font-size: 58px;
+    margin-top: 0px;
+  }
+  .intro__subpara {
+    font-size: 18px;
+  }
+  .heading {
+    padding-bottom: 0 !important;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+  .displayBranding {
+    flex-direction: column;
+    text-align: center;
+    padding-top: 100px !important ;
+  }
+  .intro__subpara {
+    display: inline-block;
+  }
+  .btn__container {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .personal_details {
+    padding: 0 !important;
+  }
+  .displayBranding {
+    height: fit-content !important;
+  }
+  .img_box {
+    margin: 26px 10px 0px 10px;
+    flex-basis: 40%;
+  }
+  .heading {
+    flex-basis: 60%;
+  }
+  .imgMine {
+    width: 82%;
+  }
+  .btn__container {
+    display: flex !important;
+    margin: 30px 0px 0px 0px;
+  }
+  .btn_about {
+    font-size: 16px;
+    padding: 6px 20px !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 835px) {
+  .head__about {
+    font-size: 60px;
+  }
+  .intro__subpara {
+    font-size: 14px;
+  }
+  .personal_details {
+    grid-template-columns: auto auto;
+    font-size: 13px;
+  }
+}
+@media only screen and (min-width: 835px) and (max-width: 1020px) {
+  .head__about {
+    font-size: 60px;
+  }
+  .intro__subpara {
+    font-size: 17px;
+  }
+  .personal_details {
+    grid-template-columns: auto auto;
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1020px) {
+  .head__about {
+    font-size: 60px;
+  }
+  .intro__subpara {
+    font-size: 20px;
+    padding: 0px 50px 0px 50px;
+  }
+  .personal_details {
+    grid-template-columns: auto auto;
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .img_box {
+    margin: 26px 10px 0px 10px;
+    flex-basis: 28%;
+  }
+  .personal_details {
+    font-size: 20px;
+  }
+}

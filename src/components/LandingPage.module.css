@@ -1,0 +1,253 @@
+.display_branding {
+  display: flex;
+  background-color: #000;
+  padding: 100px 0px 50px 0px;
+  height: 100dvh;
+}
+.branding_info {
+  flex-grow: 2;
+  flex-basis: 60%;
+  align-content: center;
+  justify-content: center;
+  padding: 90px;
+  margin: 0px auto;
+}
+
+.branding_info h5 {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
+  color: #00ff99;
+  font-size: clamp(16px, 5vw, 20px);
+}
+
+.branding_info > h1 {
+  font-size: clamp(40px, 8vw, 60px);
+  font-weight: 400;
+  font-family: "Kablammo", system-ui;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "MORF" 0;
+  /* color: #00ff99; */
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h2 {
+  color: #e2e2e2;
+  font-size: clamp(40px, 8vw, 60px);
+  font-weight: 600;
+  font-family: "Calibre", "Inter", "San Francisco", "SF Pro Text", -apple-system,
+    system-ui, sans-serif;
+}
+
+.branding_info > p {
+  /* width: 75%; */
+  color: #ababab;
+  font-size: 17px;
+}
+
+.branding_social {
+  display: flex;
+  margin-top: 29px;
+  gap: 14px;
+}
+.icon_div {
+  border: 1px solid #00ff99;
+  width: 2.5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 42px;
+}
+
+.fa__icon__detail {
+  color: #00ff99;
+}
+.image_container {
+  background-color: transparent;
+  flex-grow: 1;
+  flex-basis: 40%;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.branding_image {
+  height: 60%;
+  width: 69%;
+  overflow: hidden;
+}
+
+.resumeBtn {
+  font-size: 15px;
+  padding: 8px 0px !important;
+  font-weight: 400;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .branding_info {
+    padding: 25px;
+  }
+  .branding_info h5 {
+    font-size: 1rem;
+  }
+  .branding_info h1 {
+    font-size: 2.1rem;
+  }
+  .branding_info > p {
+    /* width: 75%; */
+    color: #ababab;
+    font-size: 17px;
+  }
+  .branding_social {
+    flex-direction: column-reverse;
+  }
+  .mobile {
+    display: flex;
+    margin-top: 29px;
+    gap: 14px;
+  }
+  .icon_div {
+    font-size: 1.25rem;
+    width: 2rem;
+    height: 2rem;
+  }
+  .resumeBtn {
+    font-size: 15px;
+    padding: 8px 32px !important;
+    font-weight: 400;
+    width: fit-content;
+    /* margin: 0 auto; */
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 576px) {
+  .branding_info {
+    padding: 80px 50px;
+  }
+  .branding_info h5 {
+    font-size: 1rem;
+  }
+  .branding_info h1 {
+    font-size: 2.6rem;
+  }
+  .branding_info > p {
+    width: 90%;
+    color: #ababab;
+    font-size: 18px;
+  }
+  .branding_social {
+    flex-direction: column-reverse;
+  }
+  .mobile {
+    display: flex;
+    gap: 14px;
+  }
+  .icon_div {
+    font-size: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .resumeBtn {
+    font-size: 15px;
+    padding: 8px 32px !important;
+    font-weight: 400;
+    width: fit-content;
+    /* margin: 0 auto; */
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 700px) {
+  .branding_info {
+    padding: 80px 50px;
+  }
+  .branding_info h5 {
+    font-size: 1rem;
+  }
+  .branding_info h1 {
+    font-size: 3.25rem;
+  }
+  .branding_info > p {
+    width: 90%;
+    color: #ababab;
+    font-size: 17px;
+  }
+  .branding_social {
+    flex-direction: column-reverse;
+  }
+  .mobile {
+    display: flex;
+    gap: 14px;
+  }
+  .icon_div {
+    font-size: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .resumeBtn {
+    font-size: 15px;
+    padding: 8px 32px !important;
+    font-weight: 400;
+    width: fit-content;
+    /* margin: 0 auto; */
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 890px) {
+  .branding_info {
+    padding: 100px 70px;
+  }
+  .branding_info h5 {
+    font-size: 1.25rem;
+  }
+  .branding_info h1 {
+    font-size: 4rem;
+  }
+  .branding_info > p {
+    width: 90%;
+    color: #ababab;
+    font-size: 17px;
+  }
+
+  .mobile {
+    display: flex;
+    gap: 14px;
+  }
+  .icon_div {
+    font-size: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .resumeBtn {
+    font-size: 15px;
+    padding: 8px 32px !important;
+    font-weight: 400;
+    width: fit-content;
+  }
+}
+@media screen and (min-width: 890px) {
+  .branding_info > p {
+    width: 90%;
+  }
+  .mobile {
+    display: flex;
+    gap: 14px;
+  }
+  .icon_div {
+    font-size: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  .resumeBtn {
+    font-size: 15px;
+    padding: 8px 32px !important;
+    font-weight: 400;
+    width: fit-content;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .branding_info > p {
+    width: 80%;
+  }
+  .icon_div {
+    font-size: 1.75rem;
+    width: 2.75rem;
+    height: 2.75rem;
+  }
+}

@@ -1,0 +1,170 @@
+.skills_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(11, 11, 12, 1);
+  height: 100vh;
+  padding: 150px 100px 100px 100px;
+}
+.heading {
+  font-size: 4.375rem;
+  color: #ababab;
+  text-align: start;
+  width: 100%;
+  /* color: #00ff99; */
+}
+.tabs_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  flex-basis: 45%;
+  height: 500px;
+  justify-content: flex-start;
+}
+.navigation_btn {
+  outline: none !important;
+  width: 100%;
+  margin: 8px 0px;
+  padding: 10px 10px;
+  background-color: #262626;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.navigation_btn:hover {
+  background-color: #00ff99;
+  color: black;
+}
+.navigation_btn:nth-child(2) {
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: black transparent black transparent;
+}
+.info_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 74%;
+  height: 500px;
+  padding: 0px 50px;
+}
+.info {
+  display: flex;
+  overflow: auto;
+  height: 50vh;
+}
+
+@media only screen and (max-width: 780px) {
+  .skills_container {
+    padding-top: 80px !important;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+  .skills_container {
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    padding: 20px 15px;
+    row-gap: 30px;
+  }
+  .heading {
+    font-size: 2.25rem;
+  }
+  .tabs_section {
+    width: 100%;
+    flex-basis: 100%;
+    padding: 10px 20px;
+  }
+  .info_container {
+    width: 100%;
+    padding: 0px 5px;
+    padding: 10px 20px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 576px) {
+  .skills_container {
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    padding: 20px 20px;
+    row-gap: 30px;
+  }
+  .heading {
+    font-size: 2.75rem;
+  }
+  .tabs_section {
+    width: 100%;
+    flex-basis: 100%;
+    padding: 10px 20px;
+  }
+  .info_container {
+    width: 100%;
+    padding: 0px 5px;
+    padding: 10px 20px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 780px) {
+  .skills_container {
+    align-items: center;
+    height: max-content;
+    padding: 20px 20px;
+    row-gap: 30px;
+  }
+  .heading {
+    font-size: 2rem;
+  }
+  .tabs_section {
+    width: 100%;
+    flex-basis: 100%;
+    padding: 10px 20px;
+  }
+  .info_container {
+    width: 100%;
+    padding: 0px 5px;
+    padding: 10px 20px;
+  }
+}
+@media only screen and (min-width: 780px) and (max-width: 1020px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+  .tabs_section {
+    width: 100%;
+    flex-basis: 75%;
+    padding: 10px 20px;
+  }
+  .info_container {
+    width: 100%;
+    padding: 10px 20px;
+  }
+}
+@media only screen and (min-width: 1020px) and (max-width: 1200px) {
+  .heading {
+    font-size: 3rem;
+  }
+  .tabs_section {
+    width: 100%;
+    flex-basis: 75%;
+    padding: 10px 20px;
+  }
+  .info_container {
+    width: 100%;
+    padding: 10px 20px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1300px) {
+  .heading {
+    font-size: 2.85rem;
+  }
+  .tabs_section {
+    width: 100%;
+    flex-basis: 75%;
+    padding: 10px 20px;
+  }
+  .info_container {
+    width: 100%;
+    padding: 10px 20px;
+  }
+}
