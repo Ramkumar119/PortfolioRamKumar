@@ -35,7 +35,7 @@ const BucketProject = () => {
               href="#"
               target="_blank"
             >
-              <h1 className="animateInRight" style={{ color: "#00ff99" }}>
+              <h1 className="animateInRight" style={{ cogitlor: "#00ff99" }}>
                 Guess the number
               </h1>
             </a>
